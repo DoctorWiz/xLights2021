@@ -16,6 +16,8 @@ Audio/*
 ./Audio/*
 Music/*
 ./Music/*
+*/Audio/*
+*/Music/*
 
 # Compiled Sequences
 *.fseq
@@ -28,3 +30,5 @@ Import/*
 RenderCache/*
 ./RenderCache/*
 desktop.ini
+*/desktop.ini
+*/folder.ico
