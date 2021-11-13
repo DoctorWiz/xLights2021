@@ -1,0 +1,30 @@
+Backups
+*.bak
+*.xbkp
+Backup/*
+./Backup/*
+*.zip
+*.exe
+
+# Audio Files
+*.mp3
+*.wav
+*.flac
+*.mp4
+*.m4a
+Audio/*
+./Audio/*
+Music/*
+./Music/*
+
+# Compiled Sequences
+*.fseq
+
+
+Downloads/*
+./Downloads/*
+Import/*
+./Import/*
+RenderCache/*
+./RenderCache/*
+desktop.ini
