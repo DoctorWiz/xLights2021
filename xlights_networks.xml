@@ -1,114 +1,181 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Networks computer="ROTHARIX" GlobalFPPProxy="">
-  <Controller Id="1" Name="APix16 DMX Output 1 Left" Description="Renard &amp; LOR ctlrs Left Yard" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="1" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE">
+<Networks computer="ROTHARIN" GlobalFPPProxy="">
+  <Controller Id="1" Name="APix16 DMX Output 1 Left" Description="Renard &amp; LOR ctlrs Left Yard" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="1" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE">
     <network ComPort="10.3.12.16" BaudRate="1" NetworkType="E131" MaxChannels="128"/>
   </Controller>
-  <Controller Id="3" Name="APix16 DMX Output 2 Right" Description="Chinese &amp; LOR Ctlrs Garage &amp; Right Yard" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE">
+  <Controller Id="3" Name="APix16 DMX Output 2 Right" Description="Chinese &amp; LOR Ctlrs Garage &amp; Right Yard" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE">
     <network ComPort="10.3.12.16" BaudRate="2" NetworkType="E131" MaxChannels="128"/>
   </Controller>
-  <Controller Id="3" Name="APix16 DMX Output 3" Description="" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" DefaultBrightnessUnderFullControl="100" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
-    <network ComPort="10.3.12.16" BaudRate="3" NetworkType="E131" MaxChannels="510"/>
+  <Controller Id="3" Name="APix16 DMX Output 3" Description="" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
+    <network ComPort="10.3.12.16" BaudRate="3" NetworkType="E131" MaxChannels="128"/>
   </Controller>
-  <Controller Id="37" Name="APix4 Out #1 Mega Triangle Left" Description="Mega Triangle Left 3 Strips" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 4" Variant="" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.4" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE">
+  <Controller Id="37" Name="APix4 Out #1 5V Mega Triangle Left" Description="Mega Triangle Left 3 Strips" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 4" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.4" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE">
     <network ComPort="10.3.12.4" BaudRate="4" NetworkType="E131" MaxChannels="510"/>
     <network ComPort="10.3.12.4" BaudRate="5" NetworkType="E131" MaxChannels="510"/>
     <network ComPort="10.3.12.4" BaudRate="6" NetworkType="E131" MaxChannels="510"/>
   </Controller>
-  <Controller Id="3" Name="APix4 Out #2 Mega Triangle Center" Description="Mega Triangle Middle 4 Strips" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 4" Variant="" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.4" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
+  <Controller Id="3" Name="APix4 Out #2 5V Mega Triangle Center" Description="Mega Triangle Middle 4 Strips" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 4" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.4" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
     <network ComPort="10.3.12.4" BaudRate="8" NetworkType="E131" MaxChannels="510"/>
     <network ComPort="10.3.12.4" BaudRate="9" NetworkType="E131" MaxChannels="510"/>
     <network ComPort="10.3.12.4" BaudRate="10" NetworkType="E131" MaxChannels="510"/>
   </Controller>
-  <Controller Id="3" Name="APix4 Out #3 Mega Triangle Right" Description="Mega Triangle Right 3 Strips" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 4" Variant="" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.4" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
+  <Controller Id="3" Name="APix4 Out #3 5V Mega Triangle Right" Description="Mega Triangle Right 3 Strips" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 4" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.4" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
     <network ComPort="10.3.12.4" BaudRate="12" NetworkType="E131" MaxChannels="510"/>
     <network ComPort="10.3.12.4" BaudRate="13" NetworkType="E131" MaxChannels="510"/>
     <network ComPort="10.3.12.4" BaudRate="14" NetworkType="E131" MaxChannels="510"/>
   </Controller>
-  <Controller Id="3" Name="APix4 Out #4" Description="Reserved for future Mega Triangle expansion" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 4" Variant="" DefaultBrightnessUnderFullControl="100" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.4" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
+  <Controller Id="3" Name="APix4 Out #4 5V Spare" Description="Reserved for future Mega Triangle expansion" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 4" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.4" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
     <network ComPort="10.3.12.4" BaudRate="48" NetworkType="E131" MaxChannels="510"/>
     <network ComPort="10.3.12.4" BaudRate="49" NetworkType="E131" MaxChannels="510"/>
     <network ComPort="10.3.12.4" BaudRate="50" NetworkType="E131" MaxChannels="510"/>
     <network ComPort="10.3.12.4" BaudRate="51" NetworkType="E131" MaxChannels="510"/>
   </Controller>
-  <Controller Id="7" Name="APix4 DMX Output 1" Description="" Type="Ethernet" Vendor="" Model="" Variant="" DefaultBrightnessUnderFullControl="100" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
-    <network BaudRate="52" NetworkType="E131" MaxChannels="510"/>
+  <Controller Id="7" Name="APix4 DMX Output 1" Description="" Type="Ethernet" Vendor="" Model="" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.4" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
+    <network ComPort="10.3.12.4" BaudRate="15" NetworkType="E131" MaxChannels="128"/>
   </Controller>
-  <Controller Id="4" Name="APix16 Out #01 Eave Pixels 1 {L} Horiz" Description="Eave Pixels 1 {L} Horiz" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE">
+  <Controller Id="4" Name="APix16 Out #01 5V Eave Pixels 1 {L} Horiz" Description="Eave Pixels 1 {L} Horiz" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE">
     <network ComPort="10.3.12.16" BaudRate="16" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.16" BaudRate="17" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.16" BaudRate="17" NetworkType="E131" MaxChannels="138"/>
   </Controller>
-  <Controller Id="3" Name="APix16 Out #02 Eave Pixels 2 {L} Diag" Description="Eave Pixels 2 {L} Diag" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE">
+  <Controller Id="3" Name="APix16 Out #02 5V Eave Pixels 2 {L} Diag" Description="Eave Pixels 2 {L} Diag" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE">
     <network ComPort="10.3.12.16" BaudRate="18" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.16" BaudRate="19" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.16" BaudRate="19" NetworkType="E131" MaxChannels="54"/>
   </Controller>
-  <Controller Id="3" Name="APix16 Out #03 Eave Pixels 3 {R} Diag" Description="Eave Pixels 3 {R} Diag" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE">
+  <Controller Id="3" Name="APix16 Out #03 5V Eave Pixels 3 {R} Diag" Description="Eave Pixels 3 {R} Diag" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE">
     <network ComPort="10.3.12.16" BaudRate="20" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.16" BaudRate="21" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.16" BaudRate="21" NetworkType="E131" MaxChannels="42"/>
   </Controller>
-  <Controller Id="3" Name="APix16 Out #04 Eave Pixels 4 {R} Horiz" Description="Eave Pixels 4 {R} Horiz" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 4" Variant="" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE">
+  <Controller Id="3" Name="APix16 Out #04 5V Eave Pixels 4 {R} Horiz" Description="Eave Pixels 4 {R} Horiz" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 4" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE">
     <network ComPort="10.3.12.16" BaudRate="22" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.16" BaudRate="23" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.16" BaudRate="23" NetworkType="E131" MaxChannels="240"/>
   </Controller>
-  <Controller Id="3" Name="APix16 Out #05 Big Pixel Tree 1" Description="Big Pixel Tree Front &amp; Center" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE">
+  <Controller Id="3" Name="APix16 Out #05 5V Big Pixel Tree 1" Description="Big Pixel Tree Front &amp; Center" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE">
     <network ComPort="10.3.12.16" BaudRate="24" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.16" BaudRate="25" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.16" BaudRate="25" NetworkType="E131" MaxChannels="417"/>
   </Controller>
-  <Controller Id="4" Name="APix16 Out #06 Snowflakes" Description="Boscoyo 24&quot; Snowflakes x 4" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
-    <network ComPort="10.3.12.16" BaudRate="26" NetworkType="E131" MaxChannels="510"/>
+  <Controller Id="4" Name="APix16 Out #06 5V Snowflakes" Description="Boscoyo 24&quot; Snowflakes x 4" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
+    <network ComPort="10.3.12.16" BaudRate="26" NetworkType="E131" MaxChannels="432"/>
   </Controller>
-  <Controller Id="4" Name="APix16 Out #07 Star of David" Description="Star of David" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
-    <network ComPort="10.3.12.16" BaudRate="28" NetworkType="E131" MaxChannels="510"/>
+  <Controller Id="4" Name="APix16 Out #07 5V Star of David" Description="Star of David" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE">
+    <network ComPort="10.3.12.16" BaudRate="28" NetworkType="E131" MaxChannels="128"/>
   </Controller>
-  <Controller Id="4" Name="APix16 Out #08 TEST 5V" Description="APix16 Out #10 TEST" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
+  <Controller Id="4" Name="APix16 Out #08 5V TEST" Description="APix16 Out #10 TEST" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
     <network ComPort="10.3.12.16" BaudRate="30" NetworkType="E131" MaxChannels="510"/>
     <network ComPort="10.3.12.16" BaudRate="31" NetworkType="E131" MaxChannels="510"/>
   </Controller>
-  <Controller Id="3" Name="APix16 Out #09 Singing Tree Left Female" Description="Singing Tree Left Male" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE">
+  <Controller Id="3" Name="APix16 Out #09 12V Singing Tree Left Female" Description="Singing Tree Left Male" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE">
     <network ComPort="10.3.12.16" BaudRate="32" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.16" BaudRate="33" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.16" BaudRate="33" NetworkType="E131" MaxChannels="252"/>
   </Controller>
-  <Controller Id="4" Name="APix16 Out #10 Singing Tree Right Male" Description="Singing Tree Right Female" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
+  <Controller Id="4" Name="APix16 Out #10 12V Singing Tree Right Male" Description="Singing Tree Right Female" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE">
     <network ComPort="10.3.12.16" BaudRate="34" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.16" BaudRate="35" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.16" BaudRate="35" NetworkType="E131" MaxChannels="252"/>
   </Controller>
-  <Controller Id="3" Name="APix16 Out #11 Really Big Lights &amp; Stars" Description="Really Big Lights &amp; Stars" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
-    <network ComPort="10.3.12.16" BaudRate="36" NetworkType="E131" MaxChannels="510"/>
+  <Controller Id="3" Name="APix16 Out #11 12V Really Big Lights &amp; Stars" Description="Really Big Lights &amp; Stars" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE">
+    <network ComPort="10.3.12.16" BaudRate="36" NetworkType="E131" MaxChannels="30"/>
   </Controller>
-  <Controller Id="3" Name="APix16 Out #12 Major Award" Description="Major Award Leg Lamp" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
-    <network ComPort="10.3.12.16" BaudRate="38" NetworkType="E131" MaxChannels="510"/>
+  <Controller Id="3" Name="APix16 Out #12 12V Major Award" Description="Major Award Leg Lamp" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE">
+    <network ComPort="10.3.12.16" BaudRate="38" NetworkType="E131" MaxChannels="474"/>
   </Controller>
-  <Controller Id="3" Name="APix16 Out #13 Sorcerer's Apprentice" Description="Sorcerer's Apprentice" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
-    <network ComPort="10.3.12.16" BaudRate="40" NetworkType="E131" MaxChannels="510"/>
+  <Controller Id="3" Name="APix16 Out #13 12V Sorcerer's Apprentice" Description="Sorcerer's Apprentice" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE">
+    <network ComPort="10.3.12.16" BaudRate="40" NetworkType="E131" MaxChannels="450"/>
   </Controller>
-  <Controller Id="3" Name="APix16 Out #14 (12V)" Description="" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" DefaultBrightnessUnderFullControl="100" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
-    <network ComPort="10.3.12.16" BaudRate="42" NetworkType="E131" MaxChannels="510"/>
+  <Controller Id="3" Name="APix16 Out #14 12V Spare" Description="" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE">
+    <network ComPort="10.3.12.16" BaudRate="42" NetworkType="E131" MaxChannels="3"/>
   </Controller>
-  <Controller Id="3" Name="APix16 Out #15 (12V)" Description="" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" DefaultBrightnessUnderFullControl="100" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
-    <network ComPort="10.3.12.16" BaudRate="44" NetworkType="E131" MaxChannels="510"/>
+  <Controller Id="3" Name="APix16 Out #15 12V Spare" Description="" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE">
+    <network ComPort="10.3.12.16" BaudRate="44" NetworkType="E131" MaxChannels="3"/>
   </Controller>
-  <Controller Id="3" Name="APix16 Out #16 Pixel Fence" Description="Candy Cane Pixel Fence" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
+  <Controller Id="3" Name="APix16 Out #16 12V Pixel Fence" Description="Candy Cane Pixel Fence" Type="Ethernet" Vendor="HolidayCoro" Model="AlphaPix 16" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.16" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
     <network ComPort="10.3.12.16" BaudRate="46" NetworkType="E131" MaxChannels="510"/>
     <network ComPort="10.3.12.16" BaudRate="47" NetworkType="E131" MaxChannels="510"/>
   </Controller>
-  <Controller Id="3" Name="ESP Art Stick 5 Wheel of Dharma" Description="Wheel of Dharma" Type="Ethernet" Vendor="ESPixelStick" Model="" Variant="" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.5" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
-    <network ComPort="10.3.12.5" BaudRate="54" NetworkType="E131" MaxChannels="510"/>
+  <Controller Id="3" Name="ESP Art Stick 5 12V Wheel of Dharma" Description="Wheel of Dharma" Type="Ethernet" Vendor="ESPixelStick" Model="ESPixelStick" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.5" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE">
+    <network ComPort="10.3.12.5" BaudRate="50" NetworkType="E131" MaxChannels="128"/>
   </Controller>
-  <Controller Id="3" Name="ESP Art Stick 6" Description="" Type="Ethernet" Vendor="ESPixelStick" Model="" Variant="" DefaultBrightnessUnderFullControl="100" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.6" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
-    <network ComPort="10.3.12.6" BaudRate="60" NetworkType="E131" MaxChannels="510"/>
+  <Controller Id="3" Name="WLED xxxx Star of Bethlehem" Description="Star of Bethlehem" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.6" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE">
+    <network ComPort="10.3.12.6" BaudRate="51" NetworkType="E131" MaxChannels="318"/>
   </Controller>
-  <Controller Id="3" Name="WLED xxxx Star of Bethlehem" Description="Star of Bethlehem" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.8" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
-    <network ComPort="10.3.12.8" BaudRate="56" NetworkType="E131" MaxChannels="510"/>
+  <Controller Id="7" Name="WLED 5V Matrix- Text- Big" Description="" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP32" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.7" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
+    <network ComPort="10.3.12.7" BaudRate="52" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.7" BaudRate="53" NetworkType="E131" MaxChannels="510"/>
   </Controller>
-  <Controller Id="3" Name="WLED yyyy" Description="" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" DefaultBrightnessUnderFullControl="100" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.9" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
-    <network ComPort="10.3.12.9" BaudRate="62" NetworkType="E131" MaxChannels="510"/>
+  <Controller Id="7" Name="WLED 5V Matrix- Text- Small Donations" Description="" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP32" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" ActiveState="Inactive" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.8" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
+    <network ComPort="10.3.12.8" BaudRate="54" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.8" BaudRate="55" NetworkType="E131" MaxChannels="510"/>
   </Controller>
-  <Controller Id="3" Name="zzNULL" Description="Null Controller" Type="Ethernet" Vendor="" Model="" Variant="" DefaultBrightnessUnderFullControl="100" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.254" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
-    <network ComPort="10.3.12.254" BaudRate="64" NetworkType="E131" MaxChannels="510"/>
+  <Controller Id="3" Name="ESP Art Stick 6" Description="" Type="Ethernet" Vendor="ESPixelStick" Model="ESPixelStick" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.9" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
+    <network ComPort="10.3.12.9" BaudRate="56" NetworkType="E131" MaxChannels="510"/>
   </Controller>
-  <Controller Id="3" Name="WLED C7A3" Description="Wemos WLED 12V Tester C7A3" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.7" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
-    <network ComPort="10.3.12.7" BaudRate="58" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.7" BaudRate="59" NetworkType="E131" MaxChannels="510"/>
+  <Controller Id="3" Name="WLED yyyy" Description="" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.10" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
+    <network ComPort="10.3.12.10" BaudRate="57" NetworkType="E131" MaxChannels="510"/>
   </Controller>
+  <Controller Id="-1" Name="12VPixelTester" Description="Wemos WLED 12V Tester C7A3" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.99" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
+    <network ComPort="10.3.12.99" BaudRate="58" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.99" BaudRate="59" NetworkType="E131" MaxChannels="510"/>
+  </Controller>
+  <Controller Id="3" Name="zzNULL" Description="Null Controller" Type="Ethernet" Vendor="" Model="" Variant="" AutoSize="0" DefaultBrightnessUnderFullControl="100" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="1" IP="10.3.12.254" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
+    <network ComPort="10.3.12.254" BaudRate="60" NetworkType="E131" MaxChannels="510"/>
+  </Controller>
+  <testpreset name="LOR AND RGB DUMB">
+    <channelr start="1" end="528"/>
+  </testpreset>
+  <testpreset name="test all">
+    <channelr start="0" end="10090"/>
+  </testpreset>
+  <testpreset name="test">
+    <channelr start="0" end="10090"/>
+  </testpreset>
+  <testpreset name="test2"/>
+  <testpreset name="Test Tree1">
+    <channelr start="2550" end="2849"/>
+  </testpreset>
+  <testpreset name="Testall">
+    <channelr start="0" end="14279"/>
+  </testpreset>
+  <testpreset name="TestTree1">
+    <channelr start="2838" end="3737"/>
+  </testpreset>
+  <testpreset name="Tree1&amp;amp;2">
+    <channelr start="2838" end="3737"/>
+    <channelr start="3750" end="4937"/>
+  </testpreset>
+  <testpreset name="SingTree123">
+    <channelr start="2838" end="3737"/>
+    <channelr start="3750" end="4937"/>
+    <channelr start="4950" end="6137"/>
+  </testpreset>
+  <testpreset name="SingTree1Test">
+    <channelr start="2550" end="3737"/>
+  </testpreset>
+  <testpreset name="Tree8Test">
+    <channelr start="10950" end="12137"/>
+  </testpreset>
+  <testpreset name="Tree7">
+    <channelr start="9750" end="10937"/>
+  </testpreset>
+  <testpreset name="Tree6">
+    <channelr start="8550" end="9737"/>
+  </testpreset>
+  <testpreset name="Tree5">
+    <channelr start="7350" end="8537"/>
+  </testpreset>
+  <testpreset name="Tree4">
+    <channelr start="6150" end="7337"/>
+  </testpreset>
+  <testpreset name="Tree9">
+    <channelr start="12150" end="13337"/>
+  </testpreset>
+  <testpreset name="test97113">
+    <channelr start="48739" end="48741"/>
+    <channelr start="48787" end="48789"/>
+  </testpreset>
+  <testpreset name="props">
+    <channelr start="349" end="510"/>
+    <channelr start="6001" end="6576"/>
+    <channelr start="11731" end="12030"/>
+    <channelr start="12243" end="12542"/>
+  </testpreset>
   <testpreset name="AlphaPix 16">
     <channelr start="1" end="2400"/>
   </testpreset>

@@ -1,34 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2021.28</version>
-    <author></author>
-    <author-email></author-email>
-    <author-website></author-website>
-    <song></song>
-    <artist></artist>
-    <album></album>
-    <MusicURL></MusicURL>
-    <comment></comment>
+    <version>2021.37</version>
+    <author/>
+    <author-email/>
+    <author-website/>
+    <song/>
+    <artist/>
+    <album/>
+    <MusicURL/>
+    <comment/>
     <sequenceTiming>25 ms</sequenceTiming>
     <sequenceType>Animation</sequenceType>
-    <mediaFile></mediaFile>
+    <mediaFile/>
     <sequenceDuration>30.000</sequenceDuration>
-    <imageDir></imageDir>
+    <imageDir/>
   </head>
   <nextid>1</nextid>
   <Jukebox/>
   <ColorPalettes>
-    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#000000,C_BUTTON_Palette3=#FF0000,C_BUTTON_Palette4=#000000,C_BUTTON_Palette5=#0000FF,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FF00,C_BUTTON_Palette8=#000000,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#000000,C_BUTTON_Palette3=#FF0000,C_BUTTON_Palette4=#000000,C_BUTTON_Palette5=#0000FF,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FF00,C_BUTTON_Palette8=#000000,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1,C_SLIDER_SparkleFrequency=137</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#FF8000,C_BUTTON_Palette4=#FFFF00,C_BUTTON_Palette5=#00FF00,C_BUTTON_Palette6=#0000FF,C_BUTTON_Palette7=#8000FF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1</ColorPalette>
   </ColorPalettes>
   <EffectDB>
-    <Effect>B_SLIDER_Blur=3,E_CHECKBOX_Bars_3D=0,E_CHECKBOX_Bars_Gradient=1,E_CHECKBOX_Bars_Highlight=0,E_CHOICE_Bars_Direction=Right,E_SLIDER_Bars_BarCount=1,E_TEXTCTRL_Bars_Cycles=1.0</Effect>
+    <Effect>B_CHOICE_BufferStyle=Single Line,B_SLIDER_Blur=3,E_CHECKBOX_Bars_3D=0,E_CHECKBOX_Bars_Gradient=1,E_CHECKBOX_Bars_Highlight=0,E_CHOICE_Bars_Direction=Right,E_SLIDER_Bars_BarCount=5,E_TEXTCTRL_Bars_Cycles=19.5</Effect>
+    <Effect>E_CHECKBOX_Pinwheel_Rotation=1,E_CHOICE_Pinwheel_3D=None,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=0,E_SLIDER_Pinwheel_ArmSize=100,E_SLIDER_Pinwheel_Arms=6,E_SLIDER_Pinwheel_Offset=0,E_SLIDER_Pinwheel_Speed=10,E_SLIDER_Pinwheel_Thickness=90,E_SLIDER_Pinwheel_Twist=134</Effect>
   </EffectDB>
   <DataLayers>
     <DataLayer lor_params="1" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
   </DataLayers>
   <DisplayElements>
-    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View,Conventional in Logical Order" active="1"/>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View,Conventional in Logical Order" active="0"/>
+    <Element collapsed="0" type="timing" name="100ms" visible="1" views="Conventional in Logical Order" active="0"/>
+    <Element collapsed="0" type="timing" name="1000ms Metronome" visible="1" views="Conventional in Logical Order" active="1"/>
     <Element collapsed="0" type="model" name="Pixels- ALL" visible="1"/>
     <Element collapsed="0" type="model" name="House Front Group" visible="1"/>
     <Element collapsed="0" type="model" name="Bushes Groups Group" visible="1"/>
@@ -57,9 +61,27 @@
     <Element collapsed="0" type="model" name="Eave Pixels 2 {L} Diag" visible="0"/>
     <Element collapsed="0" type="model" name="Eave Pixels 3 {R} Diag" visible="0"/>
     <Element collapsed="0" type="model" name="Eave Pixels 4 {R} Horiz" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees- Tomato All Groups Group (RGBWVW)" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees- Spiral Group (WWWG)" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees- Tinsel Group (R)" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees- Others Group" visible="0"/>
+    <Element collapsed="0" type="model" name="Presents (M)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Big Pixel" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Big AC 1 (M)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Small {L} (B)" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees- Willow (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees- Rainbow (ROYGBV)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Singing Female {L}" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Singing Male {R}" visible="0"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="timing" name="100ms" fixed="100">
+      <EffectLayer/>
+    </Element>
+    <Element type="timing" name="1000ms Metronome" fixed="1000">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Pixels- ALL">
@@ -99,7 +121,9 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="EavePixels Group">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="Bars" startTime="0" endTime="30050" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Snowfall Projectors (WB)">
       <EffectLayer/>
@@ -135,23 +159,55 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Eave Pixels 1 {L} Horiz">
-      <EffectLayer>
-        <Effect ref="0" name="Bars" selected="1" startTime="0" endTime="20025" palette="0"/>
-      </EffectLayer>
+      <EffectLayer/>
     </Element>
     <Element type="model" name="Eave Pixels 2 {L} Diag">
-      <EffectLayer>
-        <Effect ref="0" name="Bars" startTime="0" endTime="19975" palette="0"/>
-      </EffectLayer>
+      <EffectLayer/>
     </Element>
     <Element type="model" name="Eave Pixels 3 {R} Diag">
-      <EffectLayer>
-        <Effect ref="0" name="Bars" startTime="0" endTime="20000" palette="0"/>
-      </EffectLayer>
+      <EffectLayer/>
     </Element>
     <Element type="model" name="Eave Pixels 4 {R} Horiz">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Tomato All Groups Group (RGBWVW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Spiral Group (WWWG)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Tinsel Group (R)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Others Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Presents (M)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Big Pixel">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Big AC 1 (M)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Small {L} (B)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Willow (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Rainbow (ROYGBV)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Singing Female {L}">
       <EffectLayer>
-        <Effect ref="0" name="Bars" startTime="0" endTime="20025" palette="0"/>
+        <Effect ref="1" name="Pinwheel" selected="1" startTime="0" endTime="30000" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Singing Male {R}">
+      <EffectLayer>
+        <Effect ref="1" name="Pinwheel" startTime="0" endTime="30000" palette="1"/>
       </EffectLayer>
     </Element>
   </ElementEffects>

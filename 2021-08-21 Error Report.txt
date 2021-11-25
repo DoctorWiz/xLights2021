@@ -1,0 +1,360 @@
+Checking sequence.
+
+Show folder: W:\Documents\Christmas\2021\xLights\WizLights
+
+Sequence: W:\Documents\Christmas\2021\xLights\WizLights\Wizlights 2021 Wizards in Winter by Transiberian Orchestra (3.06) BLANK.xsq
+
+Full host name: Rotharix.home
+IP Address we are outputting data from: 192.168.1.77
+If your PC has multiple network connections (such as wired and wireless) this should be the IP Address of the adapter your controllers are connected to. If it isn't your controllers may not receive output data.
+If you are experiencing this problem you may need to set the local IP address to use.
+
+IP Addresses on this machine:
+    10.3.11.7
+    192.168.1.77
+
+Working in a backup directory
+    No problems found
+
+Potentially problematic settings
+    WARN: Render on save is enabled ... this is generally unnecessary.
+
+Inactive Controllers
+    WARN: Inactive controller APix4 Out #4 E131 (Unmanaged):10.3.12.4.
+    WARN: Inactive controller APix16 Out #11 Really Big Lights & Stars E131 (Unmanaged):10.3.12.16.
+    WARN: Inactive controller APix16 Out #12 Major Award E131 (Unmanaged):10.3.12.16.
+    WARN: Inactive controller APix16 Out #13 Sorcerer's Apprentice E131 (Unmanaged):10.3.12.16.
+    WARN: Inactive controller APix16 Out #14 E131 (Unmanaged):10.3.12.16.
+    WARN: Inactive controller APix16 Out #15 E131 (Unmanaged):10.3.12.16.
+    WARN: Inactive controller ESP Art Stick 6 E131:10.3.12.6.
+    WARN: Inactive controller WLED xxxx Star of Bethlehem E131:10.3.12.8.
+    WARN: Inactive controller WLED yyyy E131:10.3.12.9.
+    WARN: Inactive controller zzNULL E131:10.3.12.254.
+
+Multiple outputs sending to same destination
+    ERR: Multiple outputs being sent to the same controller 'APix16 Out #11 Really Big Lights & Stars' (10.3.12.16) and universe 1.
+    ERR: Multiple outputs being sent to the same controller 'APix16 Out #12 Major Award' (10.3.12.16) and universe 1.
+    ERR: Multiple outputs being sent to the same controller 'APix16 Out #13 Sorcerer's Apprentice' (10.3.12.16) and universe 1.
+    ERR: Multiple outputs being sent to the same controller 'APix16 Out #14' (10.3.12.16) and universe 1.
+    ERR: Multiple outputs being sent to the same controller 'APix16 Out #15' (10.3.12.16) and universe 1.
+
+Controller Checks
+        Applying controller rules for APix16 DMX Output 1 Left:10.3.12.16:Renard & LOR ctlrs Left Yard
+        Applying controller rules for APix16 DMX Output 2 Right:10.3.12.16:Chinese & LOR Ctlrs Garage & Right Yard
+        Applying controller rules for WLED C7A3:10.3.12.7:Wemos WLED 12V Tester C7A3
+        Applying controller rules for APix4 Out #1 Mega Triangle Left:10.3.12.4:Mega Triangle Left 3 Strips
+        Applying controller rules for APix4 Out #2 Mega Triangle Center:10.3.12.4:Mega Triangle Middle 4 Strips
+        Applying controller rules for APix4 Out #3 Mega Triangle Right:10.3.12.4:Mega Triangle Right 3 Strips
+        Applying controller rules for APix4 Out #4:10.3.12.4:Reserved for future Mega Triangle expansion
+        Applying controller rules for APix16 Out #01 Eave Pixels 1 {L} Horiz:10.3.12.16:Eave Pixels 1 {L} Horiz
+        Applying controller rules for APix16 Out #02 Eave Pixels 2 {L} Diag:10.3.12.16:Eave Pixels 2 {L} Diag
+        Applying controller rules for APix16 Out #03 Eave Pixels 3 {R} Diag:10.3.12.16:Eave Pixels 3 {R} Diag
+        Applying controller rules for APix16 Out #04 Eave Pixels 4 {R} Horiz:10.3.12.16:Eave Pixels 4 {R} Horiz
+        Applying controller rules for APix16 Out #05 Big Pixel Tree:10.3.12.16:Big Pixel Tree Front & Center
+        Applying controller rules for APix16 Out #06 Singing Tree Left Female:10.3.12.16:Singing Tree Left Male
+        Applying controller rules for APix16 Out #07 Singing Tree Right Male:10.3.12.16:Singing Tree Right Female
+        Applying controller rules for APix16 Out #08 Snowflakes:10.3.12.16:Boscoyo 24" Snowflakes x 4
+        Applying controller rules for APix16 Out #09 Star of David:10.3.12.16:Star of David
+        Applying controller rules for APix16 Out #10 TEST:10.3.12.16:APix16 Out #10 TEST
+        Applying controller rules for APix16 Out #11 Really Big Lights & Stars:10.3.12.16:Really Big Lights & Stars
+        Applying controller rules for APix16 Out #12 Major Award:10.3.12.16:Major Award Leg Lamp
+        Applying controller rules for APix16 Out #13 Sorcerer's Apprentice:10.3.12.16:Sorcerer's Apprentice
+        Applying controller rules for APix16 Out #14:10.3.12.16:
+        Applying controller rules for APix16 Out #15:10.3.12.16:
+        Applying controller rules for APix16 Out #16 Pixel Fence:10.3.12.16:Candy Cane Pixel Fence
+        Applying controller rules for ESP Art Stick 5:10.3.12.5:Wheel of Dharma
+Unknown controller vendor.
+        Applying controller rules for ESP Art Stick 6:10.3.12.6:
+Unknown controller vendor.
+        Applying controller rules for WLED xxxx Star of Bethlehem:10.3.12.8:Star of Bethlehem
+        Applying controller rules for WLED yyyy:10.3.12.9:
+Unknown controller vendor.
+        Applying controller rules for zzNULL:10.3.12.254:Null Controller
+Unknown controller vendor.
+    No problems found
+
+Multiple outputs with same universe/id number
+    WARN: Multiple outputs (9) with same universe/id number 1. If using #universe:start_channel result may be incorrect.
+
+Controller universes out of order - because some controllers care
+    WARN: Controller 10.3.12.16 Universe 1 occurs after universe 35. Some controllers do not like out of order universes.
+    WARN: Controller 10.3.12.16 Universe 1 occurs after universe 35. Some controllers do not like out of order universes.
+    WARN: Controller 10.3.12.16 Universe 1 occurs after universe 35. Some controllers do not like out of order universes.
+    WARN: Controller 10.3.12.16 Universe 1 occurs after universe 35. Some controllers do not like out of order universes.
+    WARN: Controller 10.3.12.16 Universe 1 occurs after universe 35. Some controllers do not like out of order universes.
+
+Invalid controller IP addresses
+    No problems found
+
+Models spanning controllers
+    ERR: Model 'Star of Bethlehem' starts on controller 'zzNULL' but ends at channel 22750 which is not on a controller.
+    ERR: Model 'Tree Star- Big Pixel Outside' is not configured for a controller.
+    WARN: Model 'Tree- Singing Male {R}' starts on controller 'WLED yyyy' with IP '10.3.12.9' but ends on a controller 'zzNULL' with IP '10.3.12.254'.
+
+Invalid start channels
+    No problems found
+
+Overlapping model channels
+    WARN: Probable model overlap 'Big Nick Inside (W)' (199-199) and 'Bushes 5.7 {R} Strobes- C9 (W)' (199-201).
+    WARN: Probable model overlap 'Big Nick Inside (W)' (199-199) and 'Strobes- C9 on Roof' (199-199).
+    WARN: Probable model overlap 'Bushes 1 {S} Rainbow 1 (R)' (65-65) and 'Bushes 1 {S} Rainbow 2 (O)' (65-65).
+    WARN: Probable model overlap 'Bushes 1 {S} Rainbow 1 (R)' (65-65) and 'Bushes 1 {S} Rainbow 3 (G)' (65-65).
+    WARN: Probable model overlap 'Bushes 1 {S} Rainbow 1 (R)' (65-65) and 'Bushes 1 {S} Rainbow 4 (B)' (65-65).
+    WARN: Probable model overlap 'Bushes 1 {S} Rainbow 1 (R)' (65-65) and 'Bushes 1 {S} Rainbow 5 (V)' (65-65).
+    WARN: Probable model overlap 'Bushes 1 {S} Rainbow 2 (O)' (65-65) and 'Bushes 1 {S} Rainbow 3 (G)' (65-65).
+    WARN: Probable model overlap 'Bushes 1 {S} Rainbow 2 (O)' (65-65) and 'Bushes 1 {S} Rainbow 4 (B)' (65-65).
+    WARN: Probable model overlap 'Bushes 1 {S} Rainbow 2 (O)' (65-65) and 'Bushes 1 {S} Rainbow 5 (V)' (65-65).
+    WARN: Probable model overlap 'Bushes 1 {S} Rainbow 3 (G)' (65-65) and 'Bushes 1 {S} Rainbow 4 (B)' (65-65).
+    WARN: Probable model overlap 'Bushes 1 {S} Rainbow 3 (G)' (65-65) and 'Bushes 1 {S} Rainbow 5 (V)' (65-65).
+    WARN: Probable model overlap 'Bushes 1 {S} Rainbow 4 (B)' (65-65) and 'Bushes 1 {S} Rainbow 5 (V)' (65-65).
+    WARN: Probable model overlap 'Bushes 2.4 {LC} Strobes- 5mm (W)' (69-69) and 'Bushes 3.5 {C} Strobes- 5mm (W)' (69-73).
+    WARN: Probable model overlap 'Bushes 2.5 {LC} Strobes- C9 in Bushes + House (W)' (58-59) and 'Strobes- C9 on Big Pixel Tree {FC} (W)' (59-59).
+    WARN: Probable model overlap 'Bushes 2.5 {LC} Strobes- C9 in Bushes + House (W)' (58-59) and 'Strobes- C9 on Trees Row A {F} (W)' (59-59).
+    WARN: Probable model overlap 'Bushes 2.5 {LC} Strobes- C9 in Bushes + House (W)' (58-59) and 'Strobes- C9 on Trees Row B Left {BL} (W)' (59-59).
+    WARN: Probable model overlap 'Bushes 2.5 {LC} Strobes- C9 in Bushes + House (W)' (58-59) and 'Strobes- C9 on Trees Row B Right {BR} (W)' (59-59).
+    WARN: Probable model overlap 'Bushes 2.5 {LC} Strobes- C9 in Bushes + House (W)' (58-59) and 'Trees- Palm Top (G)' (58-58).
+    WARN: Probable model overlap 'Bushes 2.5 {LC} Strobes- C9 in Bushes + House (W)' (58-59) and 'Trees- Palm Trunk (G)' (59-59).
+    WARN: Probable model overlap 'Bushes 2.5 {LC} Strobes- C9 in Bushes + House (W)' (58-59) and 'Trees- Willow (W)' (58-58).
+    WARN: Probable model overlap 'Bushes 3.5 {C} Strobes- 5mm (W)' (69-73) and 'Coexist Flag (MRGB)' (71-71).
+    WARN: Probable model overlap 'Bushes 3.5 {C} Strobes- 5mm (W)' (69-73) and 'Lamp Post Directions (O)' (72-72).
+    WARN: Probable model overlap 'Bushes 3.5 {C} Strobes- 5mm (W)' (69-73) and 'Laser- Streetlight (R)' (73-73).
+    WARN: Probable model overlap 'Bushes 3.6 {C} Strobes C9 (W)' (60-61) and 'CandyCane01-R1' (61-61).
+    WARN: Probable model overlap 'Bushes 3.6 {C} Strobes C9 (W)' (60-61) and 'CandyCane05-R1' (61-61).
+    WARN: Probable model overlap 'Bushes 3.6 {C} Strobes C9 (W)' (60-61) and 'CandyCane09-R1' (61-61).
+    WARN: Probable model overlap 'Bushes 3.6 {C} Strobes C9 (W)' (60-61) and 'CandyCane13-R1' (61-61).
+    WARN: Probable model overlap 'Bushes 3.6 {C} Strobes C9 (W)' (60-61) and 'CandyCane17-R1' (61-61).
+    WARN: Probable model overlap 'Bushes 3.6 {C} Strobes C9 (W)' (60-61) and 'CandyCane21-R1' (61-61).
+    WARN: Probable model overlap 'Bushes 3.6 {C} Strobes C9 (W)' (60-61) and 'Presents (M)' (60-60).
+    WARN: Probable model overlap 'Bushes 5.7 {R} Strobes- C9 (W)' (199-201) and 'Disco Balls {L} (M)' (200-200).
+    WARN: Probable model overlap 'Bushes 5.7 {R} Strobes- C9 (W)' (199-201) and 'Disco Balls {R} (M)' (200-200).
+    WARN: Probable model overlap 'Bushes 5.7 {R} Strobes- C9 (W)' (199-201) and 'Manger Flood 1 {L} (RGB)' (200-202).
+    WARN: Probable model overlap 'Bushes 5.7 {R} Strobes- C9 (W)' (199-201) and 'Strobes- C9 on Roof' (199-199).
+    WARN: Probable model overlap 'CandyCane01-R1' (61-61) and 'CandyCane05-R1' (61-61).
+    WARN: Probable model overlap 'CandyCane01-R1' (61-61) and 'CandyCane09-R1' (61-61).
+    WARN: Probable model overlap 'CandyCane01-R1' (61-61) and 'CandyCane13-R1' (61-61).
+    WARN: Probable model overlap 'CandyCane01-R1' (61-61) and 'CandyCane17-R1' (61-61).
+    WARN: Probable model overlap 'CandyCane01-R1' (61-61) and 'CandyCane21-R1' (61-61).
+    WARN: Probable model overlap 'CandyCane02-G2' (62-62) and 'CandyCane06-G2' (62-62).
+    WARN: Probable model overlap 'CandyCane02-G2' (62-62) and 'CandyCane10-G2' (62-62).
+    WARN: Probable model overlap 'CandyCane02-G2' (62-62) and 'CandyCane14-G2' (62-62).
+    WARN: Probable model overlap 'CandyCane02-G2' (62-62) and 'CandyCane18-G2' (62-62).
+    WARN: Probable model overlap 'CandyCane02-G2' (62-62) and 'CandyCane22-G2' (62-62).
+    WARN: Probable model overlap 'CandyCane03-R3' (63-63) and 'CandyCane07-R3' (63-63).
+    WARN: Probable model overlap 'CandyCane03-R3' (63-63) and 'CandyCane11-R3' (63-63).
+    WARN: Probable model overlap 'CandyCane03-R3' (63-63) and 'CandyCane15-R3' (63-63).
+    WARN: Probable model overlap 'CandyCane03-R3' (63-63) and 'CandyCane19-R3' (63-63).
+    WARN: Probable model overlap 'CandyCane04-G4' (64-64) and 'CandyCane08-G4' (64-64).
+    WARN: Probable model overlap 'CandyCane04-G4' (64-64) and 'CandyCane12-G4' (64-64).
+    WARN: Probable model overlap 'CandyCane04-G4' (64-64) and 'CandyCane16-G4' (64-64).
+    WARN: Probable model overlap 'CandyCane04-G4' (64-64) and 'CandyCane20-G4' (64-64).
+    WARN: Probable model overlap 'CandyCane05-R1' (61-61) and 'CandyCane09-R1' (61-61).
+    WARN: Probable model overlap 'CandyCane05-R1' (61-61) and 'CandyCane13-R1' (61-61).
+    WARN: Probable model overlap 'CandyCane05-R1' (61-61) and 'CandyCane17-R1' (61-61).
+    WARN: Probable model overlap 'CandyCane05-R1' (61-61) and 'CandyCane21-R1' (61-61).
+    WARN: Probable model overlap 'CandyCane06-G2' (62-62) and 'CandyCane10-G2' (62-62).
+    WARN: Probable model overlap 'CandyCane06-G2' (62-62) and 'CandyCane14-G2' (62-62).
+    WARN: Probable model overlap 'CandyCane06-G2' (62-62) and 'CandyCane18-G2' (62-62).
+    WARN: Probable model overlap 'CandyCane06-G2' (62-62) and 'CandyCane22-G2' (62-62).
+    WARN: Probable model overlap 'CandyCane07-R3' (63-63) and 'CandyCane11-R3' (63-63).
+    WARN: Probable model overlap 'CandyCane07-R3' (63-63) and 'CandyCane15-R3' (63-63).
+    WARN: Probable model overlap 'CandyCane07-R3' (63-63) and 'CandyCane19-R3' (63-63).
+    WARN: Probable model overlap 'CandyCane08-G4' (64-64) and 'CandyCane12-G4' (64-64).
+    WARN: Probable model overlap 'CandyCane08-G4' (64-64) and 'CandyCane16-G4' (64-64).
+    WARN: Probable model overlap 'CandyCane08-G4' (64-64) and 'CandyCane20-G4' (64-64).
+    WARN: Probable model overlap 'CandyCane09-R1' (61-61) and 'CandyCane13-R1' (61-61).
+    WARN: Probable model overlap 'CandyCane09-R1' (61-61) and 'CandyCane17-R1' (61-61).
+    WARN: Probable model overlap 'CandyCane09-R1' (61-61) and 'CandyCane21-R1' (61-61).
+    WARN: Probable model overlap 'CandyCane10-G2' (62-62) and 'CandyCane14-G2' (62-62).
+    WARN: Probable model overlap 'CandyCane10-G2' (62-62) and 'CandyCane18-G2' (62-62).
+    WARN: Probable model overlap 'CandyCane10-G2' (62-62) and 'CandyCane22-G2' (62-62).
+    WARN: Probable model overlap 'CandyCane11-R3' (63-63) and 'CandyCane15-R3' (63-63).
+    WARN: Probable model overlap 'CandyCane11-R3' (63-63) and 'CandyCane19-R3' (63-63).
+    WARN: Probable model overlap 'CandyCane12-G4' (64-64) and 'CandyCane16-G4' (64-64).
+    WARN: Probable model overlap 'CandyCane12-G4' (64-64) and 'CandyCane20-G4' (64-64).
+    WARN: Probable model overlap 'CandyCane13-R1' (61-61) and 'CandyCane17-R1' (61-61).
+    WARN: Probable model overlap 'CandyCane13-R1' (61-61) and 'CandyCane21-R1' (61-61).
+    WARN: Probable model overlap 'CandyCane14-G2' (62-62) and 'CandyCane18-G2' (62-62).
+    WARN: Probable model overlap 'CandyCane14-G2' (62-62) and 'CandyCane22-G2' (62-62).
+    WARN: Probable model overlap 'CandyCane15-R3' (63-63) and 'CandyCane19-R3' (63-63).
+    WARN: Probable model overlap 'CandyCane16-G4' (64-64) and 'CandyCane20-G4' (64-64).
+    WARN: Probable model overlap 'CandyCane17-R1' (61-61) and 'CandyCane21-R1' (61-61).
+    WARN: Probable model overlap 'CandyCane18-G2' (62-62) and 'CandyCane22-G2' (62-62).
+    WARN: Probable model overlap 'Countdown Timer (B)' (85-85) and 'HappyHolidays' (85-85).
+    WARN: Probable model overlap 'Deer 1' (90-90) and 'Deer 2' (90-90).
+    WARN: Probable model overlap 'Deer 1' (90-90) and 'Snow Lake (W)' (90-90).
+    WARN: Probable model overlap 'Deer 2' (90-90) and 'Snow Lake (W)' (90-90).
+    WARN: Probable model overlap 'Disco Balls {L} (M)' (200-200) and 'Disco Balls {R} (M)' (200-200).
+    WARN: Probable model overlap 'Disco Balls {L} (M)' (200-200) and 'Manger Flood 1 {L} (RGB)' (200-202).
+    WARN: Probable model overlap 'Disco Balls {R} (M)' (200-200) and 'Manger Flood 1 {L} (RGB)' (200-202).
+    WARN: Probable model overlap 'Mailbox- Graphic' (89-89) and 'Mailbox- MiniWicker (W)' (89-89).
+    WARN: Probable model overlap 'Mailbox- Graphic' (89-89) and 'Mailbox- Real (O)' (89-89).
+    WARN: Probable model overlap 'Mailbox- MiniWicker (W)' (89-89) and 'Mailbox- Real (O)' (89-89).
+    WARN: Probable model overlap 'Manger Flood 1 {L} (RGB)' (200-202) and 'Swirlies- Big Nick Fire (RO)' (202-202).
+    WARN: Probable model overlap 'Manger Flood 2 {R} (RGB)' (203-205) and 'Swirlies- Candy Canes (RG)' (203-203).
+    WARN: Probable model overlap 'Manger Flood 2 {R} (RGB)' (203-205) and 'UFOs 2 {CT}{L} (RGB)' (204-204).
+    WARN: Probable model overlap 'Manger Flood 2 {R} (RGB)' (203-205) and 'UFOs 2 {CT}{R} (RGB)' (204-204).
+    WARN: Probable model overlap 'Manger Flood 2 {R} (RGB)' (203-205) and 'UFOs 3 {R}{L} (RGB)' (205-205).
+    WARN: Probable model overlap 'Manger Flood 2 {R} (RGB)' (203-205) and 'UFOs 3 {R}{R} (RGB)' (205-205).
+    WARN: Probable model overlap 'Menorah (B)' (74-74) and 'Menorah Bulb 0 (B) {C}' (74-74).
+    WARN: Probable model overlap 'Menorah (B)' (74-74) and 'Menorah Bulbs 1-4 (B) {R}' (74-74).
+    WARN: Probable model overlap 'Menorah (B)' (74-74) and 'Menorah Bulbs 5-8 (B) {L}' (74-74).
+    WARN: Probable model overlap 'Menorah Bulb 0 (B) {C}' (74-74) and 'Menorah Bulbs 1-4 (B) {R}' (74-74).
+    WARN: Probable model overlap 'Menorah Bulb 0 (B) {C}' (74-74) and 'Menorah Bulbs 5-8 (B) {L}' (74-74).
+    WARN: Probable model overlap 'Menorah Bulbs 1-4 (B) {R}' (74-74) and 'Menorah Bulbs 5-8 (B) {L}' (74-74).
+    WARN: Probable model overlap 'Rotating Beacon 01 (R)' (154-154) and 'Rotating Beacon 02 (G)' (154-154).
+    WARN: Probable model overlap 'Rotating Beacon 01 (R)' (154-154) and 'Rotating Beacon 03 (B)' (154-154).
+    WARN: Probable model overlap 'Rotating Beacon 01 (R)' (154-154) and 'Rotating Beacon 04 (B)' (154-154).
+    WARN: Probable model overlap 'Rotating Beacon 01 (R)' (154-154) and 'Rotating Beacon 05 (O)' (154-154).
+    WARN: Probable model overlap 'Rotating Beacon 01 (R)' (154-154) and 'Rotating Beacon 06 (O)' (154-154).
+    WARN: Probable model overlap 'Rotating Beacon 02 (G)' (154-154) and 'Rotating Beacon 03 (B)' (154-154).
+    WARN: Probable model overlap 'Rotating Beacon 02 (G)' (154-154) and 'Rotating Beacon 04 (B)' (154-154).
+    WARN: Probable model overlap 'Rotating Beacon 02 (G)' (154-154) and 'Rotating Beacon 05 (O)' (154-154).
+    WARN: Probable model overlap 'Rotating Beacon 02 (G)' (154-154) and 'Rotating Beacon 06 (O)' (154-154).
+    WARN: Probable model overlap 'Rotating Beacon 03 (B)' (154-154) and 'Rotating Beacon 04 (B)' (154-154).
+    WARN: Probable model overlap 'Rotating Beacon 03 (B)' (154-154) and 'Rotating Beacon 05 (O)' (154-154).
+    WARN: Probable model overlap 'Rotating Beacon 03 (B)' (154-154) and 'Rotating Beacon 06 (O)' (154-154).
+    WARN: Probable model overlap 'Rotating Beacon 04 (B)' (154-154) and 'Rotating Beacon 05 (O)' (154-154).
+    WARN: Probable model overlap 'Rotating Beacon 04 (B)' (154-154) and 'Rotating Beacon 06 (O)' (154-154).
+    WARN: Probable model overlap 'Rotating Beacon 05 (O)' (154-154) and 'Rotating Beacon 06 (O)' (154-154).
+    WARN: Probable model overlap 'Rotating Beacon 07 (R)' (155-155) and 'Rotating Beacon 08 (G)' (155-155).
+    WARN: Probable model overlap 'Rotating Beacon 07 (R)' (155-155) and 'Rotating Beacon 09 (B)' (155-155).
+    WARN: Probable model overlap 'Rotating Beacon 07 (R)' (155-155) and 'Rotating Beacon 10 (O)' (155-155).
+    WARN: Probable model overlap 'Rotating Beacon 07 (R)' (155-155) and 'Rotating Beacon 11 (O)' (155-155).
+    WARN: Probable model overlap 'Rotating Beacon 08 (G)' (155-155) and 'Rotating Beacon 09 (B)' (155-155).
+    WARN: Probable model overlap 'Rotating Beacon 08 (G)' (155-155) and 'Rotating Beacon 10 (O)' (155-155).
+    WARN: Probable model overlap 'Rotating Beacon 08 (G)' (155-155) and 'Rotating Beacon 11 (O)' (155-155).
+    WARN: Probable model overlap 'Rotating Beacon 09 (B)' (155-155) and 'Rotating Beacon 10 (O)' (155-155).
+    WARN: Probable model overlap 'Rotating Beacon 09 (B)' (155-155) and 'Rotating Beacon 11 (O)' (155-155).
+    WARN: Probable model overlap 'Rotating Beacon 10 (O)' (155-155) and 'Rotating Beacon 11 (O)' (155-155).
+    WARN: Probable model overlap 'Santa in the Window' (22198-22198) and 'Tree- Singing Male {R}' (21677-22432).
+    WARN: Probable model overlap 'Santa in the Window' (22198-22198) and 'xyz House Front' (22196-22345).
+    WARN: Probable model overlap 'Santa in the Window' (22198-22198) and 'xyz Trees Origin Point' (22197-22346).
+    WARN: Probable model overlap 'Strobes- C9 on Big Pixel Tree {FC} (W)' (59-59) and 'Strobes- C9 on Trees Row A {F} (W)' (59-59).
+    WARN: Probable model overlap 'Strobes- C9 on Big Pixel Tree {FC} (W)' (59-59) and 'Strobes- C9 on Trees Row B Left {BL} (W)' (59-59).
+    WARN: Probable model overlap 'Strobes- C9 on Big Pixel Tree {FC} (W)' (59-59) and 'Strobes- C9 on Trees Row B Right {BR} (W)' (59-59).
+    WARN: Probable model overlap 'Strobes- C9 on Big Pixel Tree {FC} (W)' (59-59) and 'Trees- Palm Trunk (G)' (59-59).
+    WARN: Probable model overlap 'Strobes- C9 on Trees Row A {F} (W)' (59-59) and 'Strobes- C9 on Trees Row B Left {BL} (W)' (59-59).
+    WARN: Probable model overlap 'Strobes- C9 on Trees Row A {F} (W)' (59-59) and 'Strobes- C9 on Trees Row B Right {BR} (W)' (59-59).
+    WARN: Probable model overlap 'Strobes- C9 on Trees Row A {F} (W)' (59-59) and 'Trees- Palm Trunk (G)' (59-59).
+    WARN: Probable model overlap 'Strobes- C9 on Trees Row B Left {BL} (W)' (59-59) and 'Strobes- C9 on Trees Row B Right {BR} (W)' (59-59).
+    WARN: Probable model overlap 'Strobes- C9 on Trees Row B Left {BL} (W)' (59-59) and 'Trees- Palm Trunk (G)' (59-59).
+    WARN: Probable model overlap 'Strobes- C9 on Trees Row B Right {BR} (W)' (59-59) and 'Trees- Palm Trunk (G)' (59-59).
+    WARN: Probable model overlap 'Swirlies- Snowflakes {L} (WB)' (92-92) and 'Swirlies- Snowflakes {R} (WB)' (92-92).
+    WARN: Probable model overlap 'Tree- Singing Female {L}' (257-1018) and 'z_BAD TRIAC J1' (290-290).
+    WARN: Probable model overlap 'Tree- Singing Male {R}' (21677-22432) and 'aGround' (22195-22195).
+    WARN: Probable model overlap 'Tree- Singing Male {R}' (21677-22432) and 'xyz House Front' (22196-22345).
+    WARN: Probable model overlap 'Tree- Singing Male {R}' (21677-22432) and 'xyz Trees Origin Point' (22197-22346).
+    WARN: Probable model overlap 'Tree- Singing Male {R}' (21677-22432) and 'zLaser- Spare' (22199-22199).
+    WARN: Probable model overlap 'Tree- Singing Male {R}' (21677-22432) and 'zRainbow Rope Arch 1 (R)' (22187-22187).
+    WARN: Probable model overlap 'Tree- Singing Male {R}' (21677-22432) and 'zRainbow Rope Arch 2 (O)' (22188-22188).
+    WARN: Probable model overlap 'Tree- Singing Male {R}' (21677-22432) and 'zRainbow Rope Arch 3 (Y)' (22189-22189).
+    WARN: Probable model overlap 'Tree- Singing Male {R}' (21677-22432) and 'zRainbow Rope Arch 4 (G)' (22190-22190).
+    WARN: Probable model overlap 'Tree- Singing Male {R}' (21677-22432) and 'zRainbow Rope Arch 5 (B)' (22191-22191).
+    WARN: Probable model overlap 'Tree- Singing Male {R}' (21677-22432) and 'zRainbow Rope Arch 6 (V)' (22192-22192).
+    WARN: Probable model overlap 'Tree- Singing Male {R}' (21677-22432) and 'zTree- Big AC 2 (M)' (22193-22193).
+    WARN: Probable model overlap 'Tree- Singing Male {R}' (21677-22432) and 'zYellow Snow (Y)' (22194-22194).
+    WARN: Probable model overlap 'Trees- Palm Top (G)' (58-58) and 'Trees- Willow (W)' (58-58).
+    WARN: Probable model overlap 'Trees- Rainbow 1 {T} (R)' (57-57) and 'Trees- Rainbow 2 (O)' (57-57).
+    WARN: Probable model overlap 'Trees- Rainbow 1 {T} (R)' (57-57) and 'Trees- Rainbow 3 (Y)' (57-57).
+    WARN: Probable model overlap 'Trees- Rainbow 1 {T} (R)' (57-57) and 'Trees- Rainbow 4 (G)' (57-57).
+    WARN: Probable model overlap 'Trees- Rainbow 1 {T} (R)' (57-57) and 'Trees- Rainbow 5 (B)' (57-57).
+    WARN: Probable model overlap 'Trees- Rainbow 1 {T} (R)' (57-57) and 'Trees- Rainbow 6 {B} (V)' (57-57).
+    WARN: Probable model overlap 'Trees- Rainbow 2 (O)' (57-57) and 'Trees- Rainbow 3 (Y)' (57-57).
+    WARN: Probable model overlap 'Trees- Rainbow 2 (O)' (57-57) and 'Trees- Rainbow 4 (G)' (57-57).
+    WARN: Probable model overlap 'Trees- Rainbow 2 (O)' (57-57) and 'Trees- Rainbow 5 (B)' (57-57).
+    WARN: Probable model overlap 'Trees- Rainbow 2 (O)' (57-57) and 'Trees- Rainbow 6 {B} (V)' (57-57).
+    WARN: Probable model overlap 'Trees- Rainbow 3 (Y)' (57-57) and 'Trees- Rainbow 4 (G)' (57-57).
+    WARN: Probable model overlap 'Trees- Rainbow 3 (Y)' (57-57) and 'Trees- Rainbow 5 (B)' (57-57).
+    WARN: Probable model overlap 'Trees- Rainbow 3 (Y)' (57-57) and 'Trees- Rainbow 6 {B} (V)' (57-57).
+    WARN: Probable model overlap 'Trees- Rainbow 4 (G)' (57-57) and 'Trees- Rainbow 5 (B)' (57-57).
+    WARN: Probable model overlap 'Trees- Rainbow 4 (G)' (57-57) and 'Trees- Rainbow 6 {B} (V)' (57-57).
+    WARN: Probable model overlap 'Trees- Rainbow 5 (B)' (57-57) and 'Trees- Rainbow 6 {B} (V)' (57-57).
+    WARN: Probable model overlap 'UFOs 1 {L}{L} (RGB)' (78-78) and 'UFOs 1 {L}{R} (RGB)' (78-78).
+    WARN: Probable model overlap 'UFOs 2 {CT}{L} (RGB)' (204-204) and 'UFOs 2 {CT}{R} (RGB)' (204-204).
+    WARN: Probable model overlap 'UFOs 3 {R}{L} (RGB)' (205-205) and 'UFOs 3 {R}{R} (RGB)' (205-205).
+    WARN: Probable model overlap 'Wreath 1 Leaves (G)' (207-207) and 'Wreath 3 Leaves (G)' (207-207).
+    WARN: Probable model overlap 'Wreath 1 Leaves (G)' (207-207) and 'Wreath 4 Leaves (G)' (207-207).
+    WARN: Probable model overlap 'Wreath 1 Leaves (G)' (207-207) and 'Wreath 6 Leaves (G)' (207-207).
+    WARN: Probable model overlap 'Wreath 2 Berries (R)' (206-206) and 'Wreath 5 Berries (R)' (206-206).
+    WARN: Probable model overlap 'Wreath 3 Leaves (G)' (207-207) and 'Wreath 4 Leaves (G)' (207-207).
+    WARN: Probable model overlap 'Wreath 3 Leaves (G)' (207-207) and 'Wreath 6 Leaves (G)' (207-207).
+    WARN: Probable model overlap 'Wreath 4 Leaves (G)' (207-207) and 'Wreath 6 Leaves (G)' (207-207).
+    WARN: Probable model overlap 'Yule Log (O)' (93-93) and 'Yule Log Candles (O)' (93-93).
+    WARN: Probable model overlap 'xyz House Front' (22196-22345) and 'xyz Trees Origin Point' (22197-22346).
+    WARN: Probable model overlap 'xyz House Front' (22196-22345) and 'zLaser- Spare' (22199-22199).
+    WARN: Probable model overlap 'xyz Trees Origin Point' (22197-22346) and 'zLaser- Spare' (22199-22199).
+
+Non contiguous channels on controller ports
+    No problems found
+
+Model nodes not allocated to layers correctly
+    No problems found
+
+Models with issues
+    No problems found
+
+Model Groups containing models from different previews
+    No problems found
+
+Model/Model Groups without distinct names
+    No problems found
+
+Model Groups containing non existent models
+    No problems found
+
+Model Groups containing no models that exist
+    ERR: Model group 'Fence Pixels Group' contains no models.
+
+Model Groups with DMX models likely to cause issues
+    No problems found
+
+SubModels with no nodes
+    ERR: SubModel 'Tree- Singing Male {R}/Mouth - E' contains no nodes.
+
+SubModels with nodes not in parent model
+    No problems found
+
+Missing matrix face images
+    No problems found
+
+Large blocks of unused channels that bloats memory usage and the the fseq file.
+    WARN: Model 'Eave Pixels 1 {L} Horiz' starts at channel 7397 leaving a block of 2805 of unused channels between this and the prior model 'Star Wreath Ring Mega Triangle Topper'.
+    WARN: Model 'Snowflake Arrow' starts at channel 14537 leaving a block of 3330 of unused channels between this and the prior model 'Eave Pixels 4 {R} Horiz'.
+    WARN: Model 'Tree- Big Pixel' starts at channel 15557 leaving a block of 588 of unused channels between this and the prior model 'Snowflake Two-Prong'.
+    WARN: Model 'Major Award' starts at channel 17087 leaving a block of 627 of unused channels between this and the prior model 'Tree Star- Big Pixel Tree Star Center'.
+    WARN: Model 'Fence Swags 21 {RB}' starts at channel 19127 leaving a block of 1080 of unused channels between this and the prior model 'Sorcerers Apprentice'.
+    WARN: Model 'Tree- Singing Male {R}' starts at channel 21677 leaving a block of 1146 of unused channels between this and the prior model 'Wheel of Dharma'.
+
+Uncommon and often undesirable settings
+    No problems found
+
+Checking media file
+    No problems found
+
+Checking autosave
+    No problems found
+
+Effect problems
+    No problems found
+
+-----------------------------------------------------------------------------------------------------------------
+
+If you are planning on importing this sequence be aware the sequence relies on the following items that will not be imported.
+
+Model Faces used by this sequence:
+
+Model States used by this sequence:
+
+View Points used by this sequence:
+
+-----------------------------------------------------------------------------------------------------------------
+
+Checking problems with file access times.
+    WARN: Test of access speed to files your sequence shows the following files take longer than the recommended 1ms.
+    4.01ms  W:\Documents\Christmas\Docs\Boscoyo 16'' arrow snowflake.png.
+
+Checking problems with file paths containing repeated use of show folder name.
+    No problems found
+
+Check sequence done.
+Errors: 9. Warnings: 213

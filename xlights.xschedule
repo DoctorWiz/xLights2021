@@ -35,4 +35,16 @@
     </PlayListStep>
     <Schedule Name="AnimationsLateNight" DOW="MonTueWedThuFriSatSun" StartDate="2020-11-26" EndDate="2021-01-06" StartTime="22:00:00" EndTime="01:59:00" Priority="5" NthDay="1" NthDayOffset="0" OnOffsetMins="0" OffOffsetMins="0" FireFrequency="Fire once" Loop="TRUE" Loops="0" Enabled="TRUE" EveryYear="TRUE"/>
   </PlayList>
+  <PlayList Name="Video">
+    <PlayListStep Name="">
+      <PLIFSEQ FSEQFile="L:\2021\xLights\WizLights\Wizlights2021 - Wizards in Winter by Trans-Siberian Orchestra WITH START TONES.fseq" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
+    </PlayListStep>
+    <PlayListStep Name="">
+      <PLIFSEQ FSEQFile="L:\2021\xLights\WizLights\Wizlights2021 - Carol of the Bells by Monique Danielle WITH START TONES.fseq" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
+    </PlayListStep>
+    <PlayListStep Name="">
+      <PLIFSEQ FSEQFile="L:\2021\xLights\WizLights\Wizlights2021 - Blue Christmas by Elvis Presley WITH BEEPS.fseq" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
+    </PlayListStep>
+    <Schedule Name="Video" DOW="MonTueWedThuFriSatSun" StartDate="2021-01-13" EndDate="2021-01-13" StartTime="20:00:00" EndTime="23:59:00" Priority="5" NthDay="1" NthDayOffset="0" OnOffsetMins="0" OffOffsetMins="0" FireFrequency="Fire once" Loop="TRUE" Loops="0" Enabled="TRUE"/>
+  </PlayList>
 </xSchedule>
