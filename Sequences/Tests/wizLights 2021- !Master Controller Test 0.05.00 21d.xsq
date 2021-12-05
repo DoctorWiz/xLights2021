@@ -5,14 +5,14 @@
     <author>Doctor Wizard</author>
     <author-email>wizard@wizlights.com</author-email>
     <author-website>https://facebook.com/wizlights; http://wizlights.com</author-website>
-    <song></song>
-    <artist></artist>
-    <album></album>
-    <MusicURL></MusicURL>
+    <song/>
+    <artist/>
+    <album/>
+    <MusicURL/>
     <comment>AC Lights Controller Test</comment>
     <sequenceTiming>25 ms</sequenceTiming>
     <sequenceType>Animation</sequenceType>
-    <mediaFile></mediaFile>
+    <mediaFile/>
     <sequenceDuration>5.000</sequenceDuration>
     <imageDir/>
   </head>
@@ -180,13 +180,8 @@
     <Element collapsed="0" type="model" name="Eave Pixels- All" visible="1"/>
     <Element collapsed="0" type="model" name="Snowflakes Group" visible="0"/>
     <Element collapsed="0" type="model" name="Roof Ridgeline (RGB)" visible="0"/>
-    <Element collapsed="0" type="model" name="Major Award" visible="0"/>
     <Element collapsed="0" type="model" name="Santa in the Window" visible="0"/>
     <Element collapsed="0" type="model" name="UFOs (RGB)" visible="0"/>
-    <Element collapsed="0" type="model" name="Eave Pixels 1 {L} Horiz" visible="0"/>
-    <Element collapsed="0" type="model" name="Eave Pixels 2 {L} Diag" visible="0"/>
-    <Element collapsed="0" type="model" name="Eave Pixels 3 {R} Diag" visible="0"/>
-    <Element collapsed="0" type="model" name="Eave Pixels 4 {R} Horiz" visible="0"/>
     <Element collapsed="0" type="model" name="Trees- Tomato All Groups Group (RGBWVW)" visible="0"/>
     <Element collapsed="0" type="model" name="Trees- Spiral Group (WWWG)" visible="0"/>
     <Element collapsed="0" type="model" name="Trees- Tinsel Group (R)" visible="0"/>
@@ -206,6 +201,41 @@
     <Element collapsed="0" type="model" name="Tree- Big Pixel" visible="1"/>
     <Element collapsed="0" type="model" name="Tree- Singing Female {L}" visible="1"/>
     <Element collapsed="0" type="model" name="Tree- Singing Male {R}" visible="1"/>
+    <Element collapsed="0" type="model" name="Eave Pixels 1 {L} Horiz (216)" visible="0"/>
+    <Element collapsed="0" type="model" name="Eave Pixels 2 {L} Diag (188)" visible="0"/>
+    <Element collapsed="0" type="model" name="Eave Pixels 3 {R} Diag (184)" visible="0"/>
+    <Element collapsed="0" type="model" name="Eave Pixels 4 {R} Horiz (250)" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 01 {LB}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 02 {L}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 03 {L}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 04 {L}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 05 {LF}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 06 {FL}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 07 {F}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 08 {F}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 09 {F}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 10 {F}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 11 {F}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 12 {F}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 13 {F}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 14 {F}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 15 {FR}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 16 {DFL}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 17 {DFL}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 18 {DC}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 19 {DRB}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 20 {RF}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 21 {RB}" visible="0"/>
+    <Element collapsed="0" type="model" name="Mega Triangle" visible="0"/>
+    <Element collapsed="0" type="model" name="Star of Bethlehem" visible="0"/>
+    <Element collapsed="0" type="model" name="Star Wreath Ring Mega Triangle Topper" visible="0"/>
+    <Element collapsed="0" type="model" name="Major Award (158)" visible="0"/>
+    <Element collapsed="0" type="model" name="Wheel of Dharma" visible="0"/>
+    <Element collapsed="0" type="model" name="Sorcerers Apprentice (150)" visible="0"/>
+    <Element collapsed="0" type="model" name="Snowflake Arrow" visible="0"/>
+    <Element collapsed="0" type="model" name="Snowflake Diamond" visible="0"/>
+    <Element collapsed="0" type="model" name="Snowflake Three-Prong" visible="0"/>
+    <Element collapsed="0" type="model" name="Snowflake Two-Prong" visible="0"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="250ms Metronome" fixed="250">
@@ -483,7 +513,7 @@
     <Element type="model" name="Eaves Chase 3 (B)">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="0" endTime="1200" palette="0"/>
-        <Effect ref="0" name="On" id="2" startTime="4300" endTime="5000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="4300" endTime="5000" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Eaves Chase 4 (W)">
@@ -1327,25 +1357,10 @@
     <Element type="model" name="Roof Ridgeline (RGB)">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Major Award">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Santa in the Window">
       <EffectLayer/>
     </Element>
     <Element type="model" name="UFOs (RGB)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Eave Pixels 1 {L} Horiz">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Eave Pixels 2 {L} Diag">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Eave Pixels 3 {R} Diag">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Eave Pixels 4 {R} Horiz">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Trees- Tomato All Groups Group (RGBWVW)">
@@ -1410,11 +1425,116 @@
     </Element>
     <Element type="model" name="Tree- Singing Male {R}">
       <EffectLayer>
-        <Effect ref="4" name="Faces" selected="1" startTime="0" endTime="5000" palette="9"/>
+        <Effect ref="4" name="Faces" startTime="0" endTime="5000" palette="9"/>
       </EffectLayer>
     </Element>
+    <Element type="model" name="Eave Pixels 1 {L} Horiz (216)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Eave Pixels 2 {L} Diag (188)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Eave Pixels 3 {R} Diag (184)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Eave Pixels 4 {R} Horiz (250)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 01 {LB}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 02 {L}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 03 {L}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 04 {L}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 05 {LF}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 06 {FL}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 07 {F}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 08 {F}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 09 {F}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 10 {F}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 11 {F}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 12 {F}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 13 {F}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 14 {F}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 15 {FR}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 16 {DFL}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 17 {DFL}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 18 {DC}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 19 {DRB}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 20 {RF}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 21 {RB}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Mega Triangle">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Star of Bethlehem">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Star Wreath Ring Mega Triangle Topper">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Major Award (158)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Wheel of Dharma">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Sorcerers Apprentice (150)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snowflake Arrow">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snowflake Diamond">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snowflake Three-Prong">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snowflake Two-Prong">
+      <EffectLayer/>
+    </Element>
   </ElementEffects>
-  <lastView>3</lastView>
+  <lastView>1</lastView>
   <TimingTags>
     <Tag number="0" position="-1"/>
     <Tag number="1" position="-1"/>

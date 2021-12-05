@@ -22,7 +22,7 @@ Music/*
 # Compiled Sequences
 *.fseq
 
-
+# Folders
 Downloads/*
 ./Downloads/*
 Import/*
@@ -32,3 +32,7 @@ RenderCache/*
 desktop.ini
 */desktop.ini
 */folder.ico
+PreviewVids/*
+./PreviewVids/*
+Videos/*
+./Videos/*
