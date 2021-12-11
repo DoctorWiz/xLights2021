@@ -1268,7 +1268,7 @@
     </effectGroup>
   </effects>
   <views>
-    <view name="AC Lights in Logical Order" models="Bushes,Trees,Candy Canes Seq Group (RGRG),Religious Group,Swirlies Spinny Group (M),Snow Group,Right Yard Group,Dumb RGB Items Group,Oddballs Group,Power Items"/>
+    <view name="AC Lights in Logical Order" models="Bushes,Trees,Candy Canes Seq Group (RGRG),Religious Group,Swirlies Spinny Group (M),Snow Group,Dumb RGB Items Group,Oddballs Group,Power Items"/>
     <view name="Singing" models="Tree- Singing Female {L},Tree- Singing Male {R}"/>
     <view name="Basics" models="Eave Pixels- All,Fence Swags- All 01-21,Tree- Big Pixel,Tree- Singing Female {L},Tree- Singing Male {R},Eaves Chase (RGBW),Festivus Pole Flood (RGB)"/>
     <view name="By Controller" models="xCtlr A Tomato Trees Row A,xCtlr B- Tomato Trees Row B,xCtlr C- Other Trees,xCtlr D- Left Bushes,xCtlr E- Center Bushes,xCtlr G- 12 Volts Chinese,xCtlr I- House Front and Roof,xCtlr J- Right Bushes"/>
@@ -1294,9 +1294,6 @@
       <ControllerConnection/>
     </modelGroup>
     <modelGroup selected="0" GridSize="400" layout="minimalGrid" LayoutGroup="Default" name="Eave Pixels- All" models="Eave Pixels 1 {L} Horiz (216),Eave Pixels 2 {L} Diag (188),Eave Pixels 3 {R} Diag (184),Eave Pixels 4 {R} Horiz (250)">
-      <ControllerConnection/>
-    </modelGroup>
-    <modelGroup selected="0" GridSize="400" layout="minimalGrid" name="Candy Canes All Individual Group" LayoutGroup="Default" models="CandyCane01-R1,CandyCane02-G2,CandyCane03-R3,CandyCane04-G4,CandyCane05-R1,CandyCane06-G2,CandyCane07-R3,CandyCane08-G4,CandyCane09-R1,CandyCane10-G2,CandyCane11-R3,CandyCane12-G4,CandyCane13-R1,CandyCane14-G2,CandyCane15-R3,CandyCane16-G4,CandyCane17-R1,CandyCane18-G2,CandyCane21-R1,CandyCane22-G2">
       <ControllerConnection/>
     </modelGroup>
     <modelGroup selected="0" GridSize="400" layout="minimalGrid" models="Tree- Tomato A2.1 (R),Tree- Tomato A2.2 (G),Tree- Tomato A2.3 (B),Tree- Tomato A2.4 (W)" name="Tree- Tomato A2 Group (RGBW)" LayoutGroup="Default">
@@ -1380,7 +1377,6 @@
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Bushes 4.1 {D} (P),Bushes 4.2 {D} (W)" name="Bushes 4 {D} (PW)">
       <ControllerConnection/>
     </modelGroup>
-    <modelGroup selected="0" GridSize="400" layout="minimalGrid" name="Bushes White Group" LayoutGroup="Default" models="Bushes 2.2 {L} (W),Bushes 3.4 {C} (W),Bushes 4.2 {D} (W),Bushes 5.4 {R} (W)"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Roof Ridgeline 1 {L} (RGB),Roof Ridgeline 2 {R} (RGB)" name="Roof Ridgeline (RGB)">
       <ControllerConnection/>
     </modelGroup>
@@ -1399,7 +1395,6 @@
     <modelGroup selected="0" GridSize="400" layout="minimalGrid" models="Wreath Leaves (G),Wreath Berries (R)" LayoutGroup="Default" name="Big Festive Wreath (RG)">
       <ControllerConnection/>
     </modelGroup>
-    <modelGroup selected="0" name="Forest (all individual) Group" LayoutGroup="Default" models="Tree- Big AC 1 (M),Tree- Tomato A1.4 {L} (W),Tree- Tomato A2.3 (B),Tree- Tomato A2.2 (G),Tree- Tomato A2.1 (R),Tree- Tomato A1.3 (L} (B),Tree- Tomato A1.2 (L} (G),Tree- Tomato A1.1 (L} (R),Tree- Tomato A2.4 (W),Tree- Tomato A3.3 (B),Tree- Tomato A3.2 (G),Tree- Tomato A3.1 (R),Tree- Tomato A3.4 (W),Tree- Tomato A4.3 {CL} (B),Tree- Tomato A4.2 {CL} (G),Tree- Tomato A4.1 {CL} (R),Tree- Tomato A4.4 {CL} (W),Tree- Tomato A5.3 {CR} (B),Tree- Tomato A5.2 {CR} (G),Tree- Tomato A5.1 {CR} (R),Tree- Tomato A5.4 {CR} (W),Tree- Tomato A6.3 (B),Tree- Tomato A6.2 (G),Tree- Tomato A6.1 (R),Tree- Tomato A6.4 (W),Tree- Tomato A7.3 (B),Tree- Tomato A7.2 (G),Tree- Tomato A7.1 (R),Tree- Tomato A7.4 (W),Tree- Tomato A8.3 {R} (B),Tree- Tomato A8.2 {R} (G),Tree- Tomato A8.1 {R} (R),Tree- Tomato A8.4 {R} (W),Tree- Tomato B1.1 {L} (V),Tree- Tomato B1.2 {L} (W),Tree- Tomato B4.1 {CL} (V),Tree- Tomato B4.2 {CL} (W),Tree- Tomato B5.1 {CR} (V),Tree- Tomato B5.2 {CR} (W),Tree- Tomato B6.2 (W),Tree- Tomato B6.1 (V),Tree- Tomato B7.2 (W),Tree- Tomato B7.1 (V),Tree- Tomato B8.1 {R} (V),Tree- Tomato B8.2 {R} (W),Tree- Tomato B2.1 (V),Tree- Tomato B2.2 (W),Tree- Tomato B3.1 (V),Tree- Tomato B3.2 (W)" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
     <modelGroup selected="0" GridSize="400" layout="minimalGrid" name="Bushes 5 {R} RGBW Group (RGBW)" LayoutGroup="Default" models="Bushes 5.2 {R} (G),Bushes 5.3 {R} (B),Bushes 5.1 {R} (R),Bushes 5.4 {R} (W)">
       <ControllerConnection/>
     </modelGroup>
@@ -1450,8 +1445,6 @@
     <modelGroup selected="0" GridSize="400" layout="minimalGrid" models="Trees- Tomato A 1 Red Group (R),Trees- Tomato A 2 Grn Group (G),Trees- Tomato A 3 Blu Group (B),Trees- Tomato A 4 Wht Group (W),Trees- Tomato B Vio Group,Trees- Tomato B Wht Group,Trees- Tomato A+B Wht Indiv Group" LayoutGroup="Default" name="Trees- Tomato Row A  B By Color">
       <ControllerConnection/>
     </modelGroup>
-    <modelGroup selected="0" name="All Lights" GridSize="400" layout="minimalGrid" LayoutGroup="Default" models="Bushes,Religious Group,Snow Group,Forest Groups Group,Oddballs Group,Swirlies Spinny Group (M)"/>
-    <modelGroup selected="0" name="Forest Groups Group" LayoutGroup="Default" models="Tree- Big AC 1 (M),Trees- Spiral Group (WWWG),Trees- Tomato All Groups Group (RGBWVW),Trees- Others Group" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
     <modelGroup selected="0" LayoutGroup="Default" name="Swirlies Spinny Group (M)" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" models="Swirlies Projectors,Lasers Group,UFOs (RGB),Rotating Beacons {LCR} (RGBO),Disco Balls (M)">
       <ControllerConnection/>
     </modelGroup>
@@ -1490,21 +1483,18 @@
     <modelGroup selected="0" name="Trees- Rainbow (ROYGBV)" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Trees- Rainbow 1 {T} (R),Trees- Rainbow 2 (O),Trees- Rainbow 3 (Y),Trees- Rainbow 4 (G),Trees- Rainbow 5 (B),Trees- Rainbow 6 {B} (V)"/>
     <modelGroup selected="0" LayoutGroup="Default" name="Strobes- C9- Trees {FC} (W)" models="Strobes- C9- Trees- Tomato- Row A {F} (W),Strobes- C9- Trees- Tomato- Row B {BL} (W),Strobes- C9- Trees- Tomato- Row B {BR} (W),Strobes- C9- Tree- Big Pixel {FC} (W)" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Rotating Beacon 07 (R),Rotating Beacon 08 (G),Rotating Beacon 09 (B),Rotating Beacon 10 (O),Rotating Beacon 11 (O)" name="Rotating Beacons {R} (RGBO)"/>
-    <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Rotating Beacon 01 (R),Rotating Beacon 02 (G),Rotating Beacon 03 (B),Rotating Beacon 04 (B),Rotating Beacon 05 (O),Rotating Beacon 06 (O),Rotating Beacon 07 (R),Rotating Beacon 08 (G),Rotating Beacon 09 (B),Rotating Beacon 10 (O),Rotating Beacon 11 (O)" name="Rotating Beacons- All Individual {LCRFB} (RGBO)"/>
     <modelGroup selected="0" LayoutGroup="Default" name="Strobes- C9- Roof Bushes Trees {R} (W)" models="Strobes- C9- Bushes {R} (W),Strobes- C9- Roof" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
     <modelGroup selected="0" name="Manger Floods {LR} (RGB)" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Manger Flood 1 {L} (RGB),Manger Flood 2 {R} (RGB)"/>
     <modelGroup selected="0" name="Swirlies Projectors" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Swirlies- Big Nick Fire (RO),Swirlies- Driveway (RGB),Swirlies- Manger Stars (RWB),Swirlies- Oak (RGB),Swirlies- Pine (GO),Swirlies- Snowflakes {L} (WB),Swirlies- Snowflakes {R} (WB),Swirlies- Street (M)"/>
     <modelGroup selected="0" LayoutGroup="Default" name="Rotating Beacons {LCR} (RGBO)" models="Rotating Beacons {L} (RGBO),Rotating Beacons {R} (RGBO)" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
     <modelGroup selected="0" LayoutGroup="Default" models="Nativity Characters,Manger Floods {LR} (RGB),Swirlies- Manger Stars (RWB),Star of Bethlehem" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" name="Manger-Nativity Group"/>
     <modelGroup selected="0" name="Snowflakes Group" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Snowflake Arrow,Snowflake Diamond,Snowflake Three-Prong,Snowflake Two-Prong"/>
-    <modelGroup selected="0" LayoutGroup="Default" name="Right Yard Group" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" models="Pine Tree {R} Group,Swirlies- Oak (RGB),Manger-Nativity Group,Rotating Beacons {R} (RGBO)"/>
     <modelGroup selected="0" name="Pixels- ALL" LayoutGroup="Default" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" models="Eave Pixels 1 {L} Horiz (216),Eave Pixels 2 {L} Diag (188),Eave Pixels 3 {R} Diag (184),Eave Pixels 4 {R} Horiz (250),Fence Swags 01 {LB},Fence Swags 02 {L},Fence Swags 03 {L},Fence Swags 04 {L},Fence Swags 05 {LF},Fence Swags 06 {FL},Fence Swags 07 {F},Fence Swags 08 {F},Fence Swags 09 {F},Fence Swags 10 {F},Fence Swags 11 {F},Fence Swags 12 {F},Fence Swags 13 {F},Fence Swags 14 {F},Fence Swags 15 {FR},Fence Swags 16 {DFL},Fence Swags 17 {DFL},Fence Swags 18 {DC},Fence Swags 19 {DRB},Fence Swags 20 {RF},Fence Swags 21 {RB},Tree- Big Pixel,Star of Bethlehem,Major Award (158),Wheel of Dharma,Sorcerers Apprentice (150),Snowflake Arrow,Snowflake Diamond,Snowflake Three-Prong,Snowflake Two-Prong"/>
     <modelGroup selected="0" name="Menorah Bulbs" LayoutGroup="Default" models="Menorah Bulb 0 (B) {C},Menorah Bulbs 1-4 (B) {R},Menorah Bulbs 5-8 (B) {L},Menorah (B)" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Fence Swags 01 {LB},Fence Swags 02 {L},Fence Swags 03 {L},Fence Swags 04 {L},Fence Swags 05 {LF},Fence Swags 06 {FL},Fence Swags 07 {F},Fence Swags 08 {F},Fence Swags 09 {F},Fence Swags 10 {F},Fence Swags 11 {F},Fence Swags 12 {F},Fence Swags 13 {F},Fence Swags 14 {F},Fence Swags 15 {FR},Fence Swags 16 {DFL},Fence Swags 17 {DFL},Fence Swags 18 {DC},Fence Swags 19 {DRB},Fence Swags 20 {RF},Fence Swags 21 {RB}" name="Fence Swags- All 01-21"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Fence Swags 01 {LB},Fence Swags 02 {L},Fence Swags 03 {L},Fence Swags 04 {L},Fence Swags 05 {LF}" name="Fence Swags- Left Side Only (5)"/>
     <modelGroup selected="0" name="Fence Swags- Front Only (10)" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Fence Swags 06 {FL},Fence Swags 07 {F},Fence Swags 08 {F},Fence Swags 09 {F},Fence Swags 10 {F},Fence Swags 11 {F},Fence Swags 12 {F},Fence Swags 13 {F},Fence Swags 14 {F},Fence Swags 15 {FR}"/>
     <modelGroup selected="0" name="Fence Swags- Right and Diagonal Only (6)" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Fence Swags 16 {DFL},Fence Swags 17 {DFL},Fence Swags 18 {DC},Fence Swags 19 {DRB},Fence Swags 20 {RF},Fence Swags 21 {RB}"/>
-    <modelGroup selected="0" name="{Notes}" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models=""/>
     <modelGroup selected="0" name="Pine Tree {R} Group" LayoutGroup="Default" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" models="Bushes 5 {R} (RGBWVM),Swirlies- Pine (GO),Swirlies- Driveway (RGB),Lasers- Driveway (RG),Swirlies- Street (M),Lasers- Street (RG)"/>
     <modelGroup selected="0" name="Dumb RGB Items Group" LayoutGroup="Default" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" models="Trees- Tomato Row A By Tree (RGBW),Eaves Chase (RGBW),Bushes 3 {C} (RGBW),Bushes 5 {R} RGBW Group (RGBW),Festivus Pole Flood (RGB),Manger Floods {LR} (RGB),Roof Ridgeline (RGB)"/>
     <modelGroup selected="0" name="Work Together Sign (RWB)" LayoutGroup="Default" models="Work Together 1 (R),Work Together 2 (W),Work Together 3 (B),Work Together 4 Swirly Stars (RWB)" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
@@ -1523,6 +1513,7 @@
     <modelGroup selected="0" name="Tree- Rainbow Inflatible" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Trees- Rainbow 6 {B} (V),Trees- Rainbow 5 (B),Trees- Rainbow 4 (G),Trees- Rainbow 3 (Y),Trees- Rainbow 2 (O),Trees- Rainbow 1 {T} (R)"/>
     <modelGroup selected="0" name="Power Items" LayoutGroup="Default" models="On The Air (R),Amplifier 12V,Transmitter 12V,Laser- Streetlight (R)" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
     <modelGroup selected="0" name="xCtlr A Tomato Trees Row A" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Tree- Tomato A1.1 (L} (R),Tree- Tomato A1.2 (L} (G),Tree- Tomato A1.3 (L} (B),Tree- Tomato A1.4 {L} (W),Tree- Tomato A2.1 (R),Tree- Tomato A2.2 (G),Tree- Tomato A2.3 (B),Tree- Tomato A2.4 (W),Tree- Tomato A3.1 (R),Tree- Tomato A3.2 (G),Tree- Tomato A3.3 (B),Tree- Tomato A3.4 (W),Tree- Tomato A4.1 {CL} (R),Tree- Tomato A4.2 {CL} (G),Tree- Tomato A4.3 {CL} (B),Tree- Tomato A4.4 {CL} (W),Tree- Tomato A5.1 {CR} (R),Tree- Tomato A5.2 {CR} (G),Tree- Tomato A5.3 {CR} (B),Tree- Tomato A5.4 {CR} (W),Tree- Tomato A6.1 (R),Tree- Tomato A6.2 (G),Tree- Tomato A6.3 (B),Tree- Tomato A6.4 (W),Tree- Tomato A7.1 (R),Tree- Tomato A7.2 (G),Tree- Tomato A7.3 (B),Tree- Tomato A7.4 (W),Tree- Tomato A8.1 {R} (R),Tree- Tomato A8.2 {R} (G),Tree- Tomato A8.3 {R} (B),Tree- Tomato A8.4 {R} (W)"/>
+    <modelGroup selected="0" name="Pixels House Front" LayoutGroup="Default" models="Eave Pixels- All,Snowflakes Group,Major Award (158)" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
   </modelGroups>
   <layoutGroups/>
   <perspectives current="Wiz1">
@@ -1536,9 +1527,9 @@
     <backgroundAlpha value="50"/>
     <backupDir value="X:\2021\xLights\WizLights"/>
     <backgroundImage value="X:\2021\xLights\WizLights\Media\Resource\Images\Betty'sHouseOverhead.png"/>
-    <fseqDir value="X:\2021\xLights\WizLights"/>
     <renderCacheDir value="X:\2021\xLights\WizLights"/>
     <storedLayoutGroup value="Default"/>
+    <fseqDir value="X:\2021\xLights\WizLights\Fseq"/>
     <defaultSeqView value=""/>
     <previewWidth value="1152"/>
     <previewHeight value="720"/>
@@ -1561,11 +1552,11 @@
     <ReferenceEffect Red="255" Green="0" Blue="255"/>
     <ReferenceEffectLocked Red="255" Green="0" Blue="0"/>
     <RowHeaderSelected Red="130" Green="178" Blue="207"/>
-    <Timing1 Red="255" Green="128" Blue="128"/>
-    <Timing2 Red="255" Green="255" Blue="128"/>
-    <Timing3 Red="128" Green="255" Blue="128"/>
-    <Timing4 Red="128" Green="255" Blue="255"/>
-    <Timing5 Red="255" Green="128" Blue="255"/>
+    <Timing1 Red="255" Green="192" Blue="192"/>
+    <Timing2 Red="255" Green="192" Blue="128"/>
+    <Timing3 Red="255" Green="255" Blue="128"/>
+    <Timing4 Red="192" Green="255" Blue="192"/>
+    <Timing5 Red="192" Green="255" Blue="255"/>
     <TimingDefault Red="255" Green="255" Blue="255"/>
     <Waveform Red="130" Green="178" Blue="207"/>
     <WaveformSelected Red="0" Green="0" Blue="200"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2021.37</version>
+    <version>2021.39</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -12,8 +12,8 @@
     <comment></comment>
     <sequenceTiming>25 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
-    <mediaFile>X:\Audio\Carol of the Bells by Monique Danielle {02_33}.mp3</mediaFile>
-    <sequenceDuration>152.784</sequenceDuration>
+    <mediaFile>X:\2021\xLights\WizLights\Audio\Carol of the Bells by Monique Danielle {02_25}.mp3</mediaFile>
+    <sequenceDuration>144.796</sequenceDuration>
     <imageDir/>
   </head>
   <nextid>1</nextid>
@@ -107,13 +107,9 @@
     <Element collapsed="0" type="timing" name="Tinkly Bells Background" visible="0" views="zAll AC,Pixels" active="1"/>
     <Element collapsed="0" type="model" name="Eave Pixels- All" visible="1"/>
     <Element collapsed="0" type="model" name="Fence Swags- All 01-21" visible="1"/>
-    <Element collapsed="0" type="model" name="Bushes White Group" visible="1"/>
-    <Element collapsed="0" type="model" name="Forest (all individual) Group" visible="1"/>
     <Element collapsed="0" type="model" name="Religious Group" visible="1"/>
     <Element collapsed="0" type="model" name="Snow Group" visible="1"/>
     <Element collapsed="0" type="model" name="Oddballs Group" visible="1"/>
-    <Element collapsed="0" type="model" name="All Lights" visible="1"/>
-    <Element collapsed="0" type="model" name="Forest Groups Group" visible="1"/>
     <Element collapsed="0" type="model" name="Lasers Group" visible="1"/>
     <Element collapsed="0" type="model" name="Pixels Eaves Group" visible="1"/>
     <Element collapsed="0" type="model" name="Santa in the Window" visible="1"/>
@@ -140,7 +136,6 @@
     <Element collapsed="0" type="model" name="CandyCane02-G2" visible="1"/>
     <Element collapsed="0" type="model" name="HappyHolidays" visible="1"/>
     <Element collapsed="0" type="model" name="CandyCane01-R1" visible="1"/>
-    <Element collapsed="0" type="model" name="Color  Groups Group" visible="1"/>
     <Element collapsed="0" type="model" name="Tree- Tomato A5.4 {CR} (W)" visible="0"/>
     <Element collapsed="0" type="model" name="Tree- Tomato A6.4 (W)" visible="0"/>
     <Element collapsed="0" type="model" name="Eaves Chase 1 (R)" visible="0"/>
@@ -6789,12 +6784,6 @@
         <Effect ref="2" name="Marquee" id="1" startTime="20000" endTime="30050" palette="0"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Bushes White Group">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Forest (all individual) Group">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Religious Group">
       <EffectLayer/>
     </Element>
@@ -6802,12 +6791,6 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Oddballs Group">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="All Lights">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Forest Groups Group">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Lasers Group">
@@ -6886,9 +6869,6 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="CandyCane01-R1">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Color  Groups Group">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Tree- Tomato A5.4 {CR} (W)">
