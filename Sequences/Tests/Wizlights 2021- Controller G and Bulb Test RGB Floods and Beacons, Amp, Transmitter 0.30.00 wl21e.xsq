@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2021.37</version>
+    <version>2021.39</version>
     <author/>
     <author-email/>
     <author-website/>
@@ -27,24 +27,30 @@
     <ColorPalette>C_BUTTON_Palette1=#ff0000,C_BUTTON_Palette2=#ffff00,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#ffff00,C_BUTTON_Palette2=#00ffff,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#ff0000,C_BUTTON_Palette2=#ffe500,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_SLIDER_SparkleFrequency=149</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1</ColorPalette>
   </ColorPalettes>
   <EffectDB>
     <Effect></Effect>
     <Effect>E_TEXTCTRL_Eff_On_End=0</Effect>
     <Effect>E_TEXTCTRL_Eff_On_Start=0</Effect>
+    <Effect>B_CHOICE_BufferStyle=Single Line,E_CHECKBOX_Marquee_PixelOffsets=0,E_CHECKBOX_Marquee_Reverse=0,E_CHECKBOX_Marquee_WrapX=0,E_CHECKBOX_Marquee_WrapY=0,E_NOTEBOOK_Marquee=Settings,E_SLIDER_MarqueeXC=0,E_SLIDER_MarqueeYC=0,E_SLIDER_Marquee_Band_Size=3,E_SLIDER_Marquee_ScaleX=100,E_SLIDER_Marquee_ScaleY=100,E_SLIDER_Marquee_Skip_Size=0,E_SLIDER_Marquee_Speed=3,E_SLIDER_Marquee_Stagger=0,E_SLIDER_Marquee_Start=0,E_SLIDER_Marquee_Thickness=1</Effect>
+    <Effect>B_CHOICE_BufferTransform=Flip Vertical,E_CHECKBOX_Bars_3D=0,E_CHECKBOX_Bars_Gradient=0,E_CHECKBOX_Bars_Highlight=0,E_CHOICE_Bars_Direction=up,E_SLIDER_Bars_BarCount=3,E_TEXTCTRL_Bars_Cycles=15.2</Effect>
+    <Effect>E_CHECKBOX_Pinwheel_Rotation=0,E_CHOICE_Pinwheel_3D=None,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=0,E_SLIDER_Pinwheel_ArmSize=100,E_SLIDER_Pinwheel_Arms=3,E_SLIDER_Pinwheel_Offset=0,E_SLIDER_Pinwheel_Speed=10,E_SLIDER_Pinwheel_Thickness=97,E_SLIDER_Pinwheel_Twist=0</Effect>
   </EffectDB>
   <DataLayers>
     <DataLayer lor_params="1" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
   </DataLayers>
   <DisplayElements>
     <Element collapsed="0" type="timing" name="100ms" visible="1" views="By Controller" active="0"/>
+    <Element collapsed="0" type="timing" name="1000ms Metronome" visible="1" views="By Controller,Pixel Props" active="1"/>
     <Element collapsed="0" type="model" name="Pixels- ALL" visible="1"/>
     <Element collapsed="0" type="model" name="Bushes" visible="1"/>
     <Element collapsed="0" type="model" name="Trees" visible="1"/>
     <Element collapsed="0" type="model" name="Religious Group" visible="1"/>
     <Element collapsed="0" type="model" name="Swirlies Spinny Group (M)" visible="1"/>
     <Element collapsed="0" type="model" name="Snow Group" visible="1"/>
-    <Element collapsed="0" type="model" name="Right Yard Group" visible="1"/>
     <Element collapsed="0" type="model" name="Dumb RGB Items Group" visible="1"/>
     <Element collapsed="0" type="model" name="Oddballs Group" visible="1"/>
     <Element collapsed="0" type="model" name="Power Items" visible="1"/>
@@ -165,14 +171,14 @@
     <Element collapsed="0" type="model" name="Swirlies- Oak (RGB)" visible="0"/>
     <Element collapsed="0" type="model" name="Nativity Characters" visible="0"/>
     <Element collapsed="0" type="model" name="Swirlies- Manger Stars (RWB)" visible="0"/>
-    <Element collapsed="0" type="model" name="Rotating Beacons {R} (RGBO)" visible="0"/>
+    <Element collapsed="0" type="model" name="Rotating Beacon 02 {F} (R)" visible="0"/>
     <Element collapsed="0" type="model" name="Menorah (B)" visible="0"/>
     <Element collapsed="0" type="model" name="Yule Log (O)" visible="0"/>
     <Element collapsed="0" type="model" name="Coexist Flag (MRGB)" visible="0"/>
     <Element collapsed="0" type="model" name="Flying Spaghetti Monster (W)" visible="0"/>
     <Element collapsed="0" type="model" name="Peace Sign (RGB)" visible="0"/>
     <Element collapsed="0" type="model" name="Laser- Streetlight (R)" visible="0"/>
-    <Element collapsed="0" type="model" name="Rotating Beacons {L} (RGBO)" visible="0"/>
+    <Element collapsed="0" type="model" name="Rotating Beacons 1 {LF} (RGBO)" visible="0"/>
     <Element collapsed="0" type="model" name="Snow Lake (W)" visible="0"/>
     <Element collapsed="0" type="model" name="Snowman (W)" visible="0"/>
     <Element collapsed="0" type="model" name="Penguins" visible="0"/>
@@ -214,9 +220,22 @@
     <Element collapsed="0" type="model" name="Strobes- C9- Trees- Tomato- Row B {BL} (W)" visible="0"/>
     <Element collapsed="0" type="model" name="Strobes- C9- Trees- Tomato- Row B {BR} (W)" visible="0"/>
     <Element collapsed="0" type="model" name="Strobes- C9- Tree- Big Pixel {FC} (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Rotating Beacons 2 {LB} (RGBO)" visible="0"/>
+    <Element collapsed="0" type="model" name="Rotating Beacons {All} (RGBO)" visible="0"/>
+    <Element collapsed="0" type="model" name="Rotating Beacons 3 {R} {BGO}" visible="0"/>
+    <Element collapsed="0" type="model" name="Major Award (158)" visible="1"/>
+    <Element collapsed="0" type="model" name="Star of Bethlehem" visible="1"/>
+    <Element collapsed="0" type="model" name="Sorcerers Apprentice (150)" visible="1"/>
+    <Element collapsed="0" type="model" name="Wheel of Dharma" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree Star- Big Pixel Outside" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree Star- Big Pixel Tree Star Center" visible="1"/>
+    <Element collapsed="0" type="model" name="Snowflakes Group" visible="1"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="100ms" fixed="100">
+      <EffectLayer/>
+    </Element>
+    <Element type="timing" name="1000ms Metronome" fixed="1000">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Pixels- ALL">
@@ -235,9 +254,6 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Snow Group">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Right Yard Group">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Dumb RGB Items Group">
@@ -881,7 +897,7 @@
     <Element type="model" name="Swirlies- Manger Stars (RWB)">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Rotating Beacons {R} (RGBO)">
+    <Element type="model" name="Rotating Beacon 02 {F} (R)">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="10000" endTime="30000" palette="0"/>
       </EffectLayer>
@@ -904,7 +920,7 @@
     <Element type="model" name="Laser- Streetlight (R)">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Rotating Beacons {L} (RGBO)">
+    <Element type="model" name="Rotating Beacons 1 {LF} (RGBO)">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="0" endTime="20000" palette="0"/>
       </EffectLayer>
@@ -1040,8 +1056,46 @@
     <Element type="model" name="Strobes- C9- Tree- Big Pixel {FC} (W)">
       <EffectLayer/>
     </Element>
+    <Element type="model" name="Rotating Beacons 2 {LB} (RGBO)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="5000" endTime="25000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Rotating Beacons {All} (RGBO)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Rotating Beacons 3 {R} {BGO}">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="10000" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Major Award (158)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Star of Bethlehem">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Sorcerers Apprentice (150)">
+      <EffectLayer>
+        <Effect ref="3" name="Marquee" startTime="0" endTime="10000" palette="8"/>
+        <Effect ref="4" name="Bars" id="1" startTime="10000" endTime="20000" palette="9"/>
+        <Effect ref="5" name="Pinwheel" selected="1" id="2" startTime="20000" endTime="30000" palette="10"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Wheel of Dharma">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree Star- Big Pixel Outside">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree Star- Big Pixel Tree Star Center">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snowflakes Group">
+      <EffectLayer/>
+    </Element>
   </ElementEffects>
-  <lastView>4</lastView>
+  <lastView>5</lastView>
   <TimingTags>
     <Tag number="0" position="-1"/>
     <Tag number="1" position="-1"/>
