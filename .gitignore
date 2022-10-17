@@ -5,6 +5,7 @@ Backup/*
 ./Backup/*
 *.zip
 *.exe
+*.foo
 
 # Audio Files
 *.mp3
@@ -25,7 +26,7 @@ Music/*
 # Folders
 Downloads/*
 ./Downloads/*
-Import/*
+Imports/*
 ./Import/*
 RenderCache/*
 ./RenderCache/*
